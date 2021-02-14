@@ -216,8 +216,6 @@ use_mid_level_api(char *server_address,
     credential.credential_value = &upc;
     
     int result = kmip_add_credential(&kmip_context, &credential);
-
-    printf("Mahesh  result -> %d \n",result);
     
     if(result != KMIP_OK)
     {
